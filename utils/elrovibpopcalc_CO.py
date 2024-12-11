@@ -250,7 +250,7 @@ def elrovibpopcalc_COfunc(tgas=None, ncollp=None, jnufilestar='', nlinesjnufiles
 
 	### Here read in UV intensity from the ISRF
 	#Read interstellar Draine 1978 +extension field flux file
-	rfile = open('./ISRF.dat', 'r')
+	rfile = open('../files/ISRF.dat', 'r')
 	dum=rfile.readline()
 	dum=rfile.readline()
 	dum=rfile.readline()
